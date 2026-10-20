@@ -1,21 +1,12 @@
-# Scripts de Automatización (Bash/Python)
+# Scripts en Bash y Python
 
-Repositorio donde voy guardando y ampliando scripts de automatización en Python y Bash. Algunos que ya he realizado, por ejemplo, son para monitorización, limpieza, comprobación de servicios o análisis de logs. Cada script incluye manejo de errores y el registro de actividad (logs).
+En este repositorio voy a ir guardando scripts realizados en Python y Bash, algunos podrán ser scripts orientados a la automatización de algunas tareas y otros no.
 
-## 📂 Scripts
-
-| Script | Lenguaje | Descripción |
-|---|---|---|
-| [`monitorizacion-espacio-disco`](./monitorizacion-espacio-disco) | Bash | Comprueba el espacio usado en disco y avisa si supera un umbral configurable |
-| [`limpieza-recursos-docker`](./limpieza-recursos-docker) | Bash | Elimina contenedores parados e imágenes sin uso, con registro de lo eliminado |
-| [`comprobacion-estado-servicios`](./comprobacion-estado-servicios) | Python | Comprueba si una lista de servicios/URLs responde correctamente vía HTTP |
-| [`analisis-registros-logs`](./analisis-registros-logs) | Python | Analiza un archivo de log y genera un resumen por nivel de severidad (ERROR, WARNING, INFO) |
-
-## 🛠️ Tecnologías
+## 🛠️ Tecnologías que usaré
 
 - Bash
 - Python 3
-- Docker (sólo para el caso del script de limpieza de recursos que no se usan en docker)
+- Docker (sólo en el caso de algunos scripts)
 
 ## 🚀 Uso
 
