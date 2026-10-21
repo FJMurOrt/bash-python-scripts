@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#Script para comprobar si un archivo concreto que le pasamos como argumento existe o no
 echo ""
 
 if [ -z "$1" ]; then
